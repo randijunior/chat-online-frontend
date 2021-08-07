@@ -197,7 +197,6 @@ this.hasMessages = true;
             this.errorMessage = response.data.err;
             this.hasMessages = 'Show';
           }else {
-            console.log(response.data)
             this.friends.push(response.data);
             this.showDialog = false;
             this.newChat = true;
